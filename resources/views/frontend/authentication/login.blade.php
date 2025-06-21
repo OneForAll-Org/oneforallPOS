@@ -34,9 +34,10 @@
                 @csrf
                 <div class="authentication-form-header">
                     <a href="{{ route('frontend.home') }}" class="logo">
-                        <img src="{{ assetImage(readconfig('site_logo')) }}" width="200px" alt="brand-logo">
+                        <img src="{{ assetImage(readconfig('site_logo')) }}" width="400px" alt="brand-logo"
+                            style="margin-top: -142px;margin-left: 91px;">
                     </a>
-                    <h3 class="form-title">Sign in</h3>
+                    <h3 class="form-title">Sign in to OneForAll POS</h3>
                     <p class="form-des">Welcome back! Sign in to access your account.</p>
                 </div>
                 <div class="authentication-form-content">
@@ -127,8 +128,8 @@
                                 <button type="submit" class="create-account-btn w-100">Sign In</button>
                             </div>
                             <div class="form-group"> <br>
-                            <p><b>User:</b> demo@qtecsolution.net</p>
-                            <p><b>Password:</b> 87654321</p>
+                                <p><b>User:</b> demo@qtecsolution.net</p>
+                                <p><b>Password:</b> 87654321</p>
                             </div>
                         </div>
 
